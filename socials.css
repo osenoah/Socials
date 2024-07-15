@@ -62,3 +62,40 @@ li:last-child {
 li:last-child a{
     border-radius: 0 0 0.7em 0.7em;
 }
+
+/* Media Queries for Responsiveness */
+@media (max-width: 600px) {
+    body {
+        width: 90%;
+        margin: 1em auto;
+        border-radius: 1em;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        padding: 0.5em;
+    }
+
+    a {
+        font-size: 2em;
+        padding: 0.5rem;
+    }
+
+    li:last-child {
+        border-radius: 0 0 1em 1em;
+    }
+
+    li:last-child a {
+        border-radius: 0 0 0.5em 0.5em;
+    }
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    a {
+        font-size: 1.5em;
+    }
+}

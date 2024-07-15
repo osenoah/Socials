@@ -67,7 +67,7 @@ li:last-child a{
 @media (max-width: 600px) {
     body {
         width: 90%;
-        margin: 1em auto;
+        margin: 25px;
         border-radius: 1em;
     }
 
@@ -91,6 +91,9 @@ li:last-child a{
 }
 
 @media (max-width: 400px) {
+    body {
+        margin: 25px;
+    }
     h1 {
         font-size: 1.2rem;
     }

@@ -1,4 +1,4 @@
-# My Social Links Project
+# My Social Links
 
 This project is used to create links to my social media profiles. It was created using only HTML and CSS.
 
